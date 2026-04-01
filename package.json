@@ -1,0 +1,14 @@
+{
+  "name": "ticket-system",
+  "version": "1.0.0",
+  "description": "QR reservation system with passcode",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "better-sqlite3": "^9.4.0",
+    "cookie-parser": "^1.4.6"
+  }
+}
